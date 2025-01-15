@@ -10,6 +10,5 @@
   const Component = componentMap[type];
 </script>
 
-<div>
-	<Component {...data} hasPrevious={hasPrevious} hasNext={hasNext} onsubmit={onsubmit} />
-</div>
+
+<Component {...data} hasPrevious={hasPrevious} hasNext={hasNext} onsubmit={onsubmit} />

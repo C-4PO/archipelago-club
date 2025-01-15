@@ -19,7 +19,6 @@
     } else if (action === 'next') {
       currentIndex++;
     }
-    console.log('Submit', action);
   }
 
 </script>
